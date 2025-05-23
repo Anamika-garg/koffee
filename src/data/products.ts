@@ -36,17 +36,6 @@ export const products: Product[] = [
     roastLevel: "Medium Roast"
   },
   {
-    id: 3,
-    name: "Sumatra Mandheling",
-    description: "Full-bodied with earthy, herbal notes and low acidity.",
-    price: 17.99,
-    image: "https://images.pexels.com/photos/4820337/pexels-photo-4820337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    rating: 4.7,
-    reviewCount: 87,
-    origin: "Indonesia",
-    roastLevel: "Dark Roast"
-  },
-  {
     id: 4,
     name: "Guatemala Antigua",
     description: "Spicy and complex with chocolate notes and a velvety body.",
@@ -58,18 +47,6 @@ export const products: Product[] = [
     roastLevel: "Medium Roast"
   },
   {
-    id: 5,
-    name: "Kenya AA",
-    description: "Bold and vibrant with wine-like acidity and blackcurrant notes.",
-    price: 18.99,
-    image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    rating: 4.9,
-    reviewCount: 64,
-    origin: "Kenya",
-    roastLevel: "Medium-Light Roast",
-    isNew: true
-  },
-  {
     id: 6,
     name: "House Blend",
     description: "Our signature blend with notes of chocolate, nuts, and caramel.",
@@ -79,5 +56,28 @@ export const products: Product[] = [
     reviewCount: 152,
     origin: "Multi-Origin",
     roastLevel: "Medium Roast"
-  }
+  },
+  {
+    id: 1,
+    name: "Ethiopian Yirgacheffe",
+    description: "Bright and fruity with notes of citrus, berries, and floral undertones.",
+    price: 16.99,
+    image: "https://images.pexels.com/photos/2074122/pexels-photo-2074122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    rating: 4.8,
+    reviewCount: 124,
+    origin: "Ethiopia",
+    roastLevel: "Light Roast",
+    isNew: true
+  },
+  {
+    id: 2,
+    name: "Colombian Supremo",
+    description: "Well-balanced with sweet caramel notes, medium body, and a smooth finish.",
+    price: 14.99,
+    image: "https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    rating: 4.6,
+    reviewCount: 98,
+    origin: "Colombia",
+    roastLevel: "Medium Roast"
+  },
 ];
